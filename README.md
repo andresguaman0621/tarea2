@@ -47,15 +47,6 @@ Ideal para:
 
 ---
 
-## Resultados Obtenidos (Ejemplo Típico)
-
-| Métrica | Entrenamiento | Prueba  |
-| ------- | ------------- | ------- |
-| **R²**  | 0.873         | 0.862   |
-| **MAE** | 153.427       | 167.892 |
-
----
-
 ## Ecuación del Modelo Predictivo
 
 \[
