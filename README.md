@@ -49,9 +49,9 @@ Ideal para:
 
 ## Ecuación del Modelo Predictivo
 
-\[
+$$
 \text{Ventas} = 25.32 + (8.15 \cdot \text{Temp}) + (15.67 \cdot \text{Promo}) - (0.23 \cdot \text{Temp}^2) + (1.45 \cdot \text{Temp} \cdot \text{Promo}) - (2.34 \cdot \text{Promo}^2)
-\]
+$$
 
 ---
 
@@ -59,32 +59,22 @@ Ideal para:
 
 ### 1. Punto Óptimo de Temperatura
 
-\[
-T\_{\text{óptima}} = \frac{-8.15}{2 \cdot -0.23} \approx 17.7^\circ C
-\]
+$$
+T_{\text{óptima}} = \frac{-8.15}{2 \cdot -0.23} \approx 17.7^\circ C
+$$
 
 _Temperatura ideal para máximas ventas sin saturación térmica_
 
 ### 2. Interacción Temperatura y Promoción
 
-\[
+$$
 \text{A 20°C con promoción: } 15.67 + (1.45 \cdot 20) = 44.67 \text{ unidades extra}
-\]
+$$
 
-_Demuestra efecto multiplicador de las promociones en días cálidos_
-
----
+## _Demuestra efecto multiplicador de las promociones en días cálidos_
 
 ## Recomendaciones de Negocio
 
 - **Activar promociones entre 15–25 °C** para efecto máximo.
 - **Gestionar inventario** anticipando ventas 15–20% mayores con promociones.
 - **Climatizar locales** a ~18°C si es posible, para generar ambiente de consumo óptimo.
-
----
-
-## Ideal Para
-
-- Estudiantes de ciencia de datos
-- Analistas de negocios
-- Practicantes de machine learning
